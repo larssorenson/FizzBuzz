@@ -1,2 +1,7 @@
 This is a simple program, it has one straight forward purpose:
 	To write, compile, and run a FizzBuzz program written in C.
+	
+To compile: gcc fizzbuzz.c
+To run: ./a.out
+
+The program will generate fizzbuzz_gen.c and compile it.
