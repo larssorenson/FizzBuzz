@@ -58,7 +58,8 @@ char* intToString(int x)
 		
 	memset(rev_result, 0, length+1);
 	
-	for(int x = 0; x < length; x++)
+	int y;
+	for(y = 0; x < length; x++)
 	{
 		rev_result[x] = result[(length-1)-x];
 	}
